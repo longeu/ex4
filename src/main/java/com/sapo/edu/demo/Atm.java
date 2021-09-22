@@ -1,13 +1,8 @@
 package com.sapo.edu.demo;
 
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
+
 
 import java.math.BigDecimal;
-@Configuration
-@EnableConfigurationProperties
-@ConfigurationProperties
 public interface Atm {
     void withDraw(Customer customer, BigDecimal amount);//rút tiền//
 
